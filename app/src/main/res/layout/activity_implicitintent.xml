@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".implicitintent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click the below button to see magic"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="241dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="517dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        tools:context=".implicitintent">
+
+        <Button
+            android:id="@+id/implicit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="www.paytm.com"
+            tools:layout_editor_absoluteX="197dp"
+            tools:layout_editor_absoluteY="314dp" />
+
+        <Button
+            android:id="@+id/implicit_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Send Message"
+            tools:layout_editor_absoluteX="197dp"
+            tools:layout_editor_absoluteY="314dp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp">
+    </EditText>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        tools:context=".implicitintent">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share to"
+            tools:layout_editor_absoluteX="164dp"
+            tools:layout_editor_absoluteY="241dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:background="@color/white"
+            android:layout_marginBottom="20dp"/>
+
+        <ImageButton
+            android:id="@+id/whatsapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/whatsapp">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/facebook">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/dial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dial">
+        </ImageButton>
+        <ImageButton
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/email">
+        </ImageButton>
+    </LinearLayout>
+
+
+</LinearLayout>

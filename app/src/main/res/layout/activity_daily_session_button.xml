@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DailySessionButton"
+    android:background="#98FB98">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#RRGGBB"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="15dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/firstactivity"
+            android:text="First Activity"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp">
+        </Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bmiactivity"
+            android:text="BMI Activity"
+            android:layout_marginLeft="30dp">
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#RRGGBB"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="15dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/battery"
+            android:text="Battery Receiver"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp">
+        </Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Customadap"
+            android:text="Custom Adapter"
+            android:layout_marginRight="8dp">
+        </Button>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#RRGGBB"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_margin="15dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/implicit"
+                android:text="ImplicitIntent"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp">
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/listview"
+                android:text="ListView"
+                android:layout_marginLeft="30dp">
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#RRGGBB"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_margin="15dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/main"
+                android:text="MAin Activity"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp">
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/log"
+                android:text="LOG Activity"
+                android:layout_marginLeft="30dp">
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#RRGGBB"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_margin="15dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/maps"
+                android:text="MAps Activity"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp">
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/multilanguage"
+                android:text="multilanguage"
+                android:layout_marginLeft="30dp">
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#RRGGBB"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_margin="15dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/broadcast"
+                android:text="Broadcast Receiver"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp">
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/navigation"
+                android:text="navigation drawer"
+                >
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#RRGGBB"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_margin="15dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/newservice"
+                android:text="New Service"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp">
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/proximity"
+                android:text="Proximity"
+                android:layout_marginLeft="60dp">
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#RRGGBB"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_margin="15dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/recycler"
+                android:text="Recycler view"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp">
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sesor"
+                android:text="SENSORS"
+                android:layout_marginLeft="30dp">
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#RRGGBB"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_margin="15dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sharedpreference"
+                android:text="Shared Preference"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="20dp">
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tablayout"
+                android:text="Tab layout"
+                android:layout_marginRight="40dp">
+            </Button>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

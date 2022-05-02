@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">newapp</string>
+    <string name="title_activity_navigationdrawer">નેવિગેશન ડ્રોવર</string>
+    <string name="navigation_drawer_open">નેવિગેશન ડ્રોઅર ખોલો</string>
+    <string name="navigation_drawer_close">
+નેવિગેશન ડ્રોઅર બંધ કરો</string>
+    <string name="nav_header_title">એન્ડ્રોઇડ સ્ટુડિયો</string>
+    <string name="nav_header_subtitle">એન્ડ્રોઇડ સ્ટુડિયો@એન્ડ્રોઇડ સ્ટુડિયો.com</string>
+    <string name="nav_header_desc">નેવિગેશન હેડર</string>
+    <string name="action_settings">
+સેટિંગ્સ</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">ઘર</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_tab_layout">
+સ્લાઇડશોt</string>
+    <string name="tab_text_1">ટૅબ 1</string>
+    <string name="tab_text_2">ટૅબ 2</string>
+    <string name="bhavya_thakker">Bhavya Thakker</string>
+    <string name="change_language">Change Language</string>
+</resources>
